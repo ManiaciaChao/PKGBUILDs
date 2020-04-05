@@ -1,0 +1,3 @@
+[submodule "clashr-bin"]
+	path = clashr-bin
+	url = ssh://aur@aur.archlinux.org/clashr-bin.git
