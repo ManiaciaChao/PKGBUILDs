@@ -1,4 +1,4 @@
-name: clashr-bin
+name: logisim-evolution-bin
 
 on:
   schedule:
@@ -8,11 +8,11 @@ jobs:
   aur-sync:
     runs-on: ubuntu-latest
     steps:
-      - name: clashr-bin
+      - name: logisim-evolution-bin
         uses: maniaciachao/aur-sync-action@v1.1
         with:
-          package_name: clashr-bin
-          github_repo: "frainzy1477/clashrdev"
+          package_name: logisim-evolution-bin
+          github_repo: "reds-heig/logisim-evolution"
           commit_username: "Github Action Bot"
           commit_email: maniaciachao@gmail.com
           ssh_private_key: ${{ secrets.AUR_SSH_PRIVATE_KEY }}
