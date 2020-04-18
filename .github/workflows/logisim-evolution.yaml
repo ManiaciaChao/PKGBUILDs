@@ -1,4 +1,4 @@
-name: logisim-evolution-bin
+name: logisim-evolution
 
 on:
   schedule:
@@ -8,10 +8,10 @@ jobs:
   aur-sync:
     runs-on: ubuntu-latest
     steps:
-      - name: logisim-evolution-bin
+      - name: logisim-evolution
         uses: maniaciachao/aur-sync-action@v1.1
         with:
-          package_name: logisim-evolution-bin
+          package_name: logisim-evolution
           github_repo: "reds-heig/logisim-evolution"
           commit_username: "Github Action Bot"
           commit_email: maniaciachao@gmail.com

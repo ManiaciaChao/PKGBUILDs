@@ -1,9 +1,9 @@
 [submodule "clashr-bin"]
 	path = clashr-bin
 	url = ssh://aur@aur.archlinux.org/clashr-bin.git
-[submodule "logisim-evolution-bin"]
-	path = logisim-evolution-bin
-	url = ssh://aur@aur.archlinux.org/logisim-evolution-bin.git
 [submodule "logisim-ita-bin"]
 	path = logisim-ita-bin
 	url = ssh://aur@aur.archlinux.org/logisim-ita-bin.git
+[submodule "logisim-evolution"]
+	path = logisim-evolution
+	url = ssh://aur@aur.archlinux.org/logisim-evolution.git
