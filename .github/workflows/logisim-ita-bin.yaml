@@ -3,6 +3,9 @@ name: logisim-ita-bin
 on:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    paths:
+      - "logisim-ita-bin.yaml"
 
 jobs:
   aur-sync:

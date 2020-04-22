@@ -3,6 +3,9 @@ name: logisim-evolution
 on:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    paths:
+      - "logisim-evolution.yaml"
 
 jobs:
   aur-sync:

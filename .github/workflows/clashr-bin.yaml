@@ -3,13 +3,16 @@ name: clashr-bin
 on:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    paths:
+      - "clashr-bin.yaml"
 
 jobs:
   aur-sync:
     runs-on: ubuntu-latest
     steps:
       - name: clashr-bin
-        uses: maniaciachao/aur-sync-action@v1.1
+        uses: maniaciachao/aur-sync-action@v1.2
         with:
           package_name: clashr-bin
           github_repo: "frainzy1477/clashrdev"
