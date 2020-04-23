@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: logisim-ita-bin
-        uses: maniaciachao/aur-sync-action@v1.2
+        uses: maniaciachao/aur-sync-action@master
         with:
           package_name: logisim-ita-bin
           github_repo: "LogisimIt/Logisim"
