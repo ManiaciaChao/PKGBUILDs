@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * *"
   push:
     paths:
-      - "clashr-bin.yaml"
+      - ".github/workflows/clashr-bin.yaml"
 
 jobs:
   aur-sync:

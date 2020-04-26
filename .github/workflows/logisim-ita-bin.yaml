@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * *"
   push:
     paths:
-      - "logisim-ita-bin.yaml"
+      - ".github/workflows/logisim-ita-bin.yaml"
 
 jobs:
   aur-sync:
