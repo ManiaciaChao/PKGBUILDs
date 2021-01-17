@@ -7,3 +7,6 @@
 [submodule "logisim-evolution"]
 	path = logisim-evolution
 	url = ssh://aur@aur.archlinux.org/logisim-evolution.git
+[submodule "logisim-evolution-bin"]
+	path = logisim-evolution-bin
+	url = https://aur.archlinux.org/logisim-evolution-bin.git

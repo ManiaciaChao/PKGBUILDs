@@ -1,0 +1,22 @@
+name: logisim-evolution-bin
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    paths:
+      - ".github/workflows/logisim-evolution-bin.yaml"
+
+jobs:
+  aur-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: logisim-evolution-bin
+        uses: maniaciachao/aur-sync-action@master
+        with:
+          package_name: logisim-evolution-bin
+          github_repo: "reds-heig/logisim-evolution"
+          commit_username: "Github Action Bot"
+          commit_email: maniaciachao@gmail.com
+          ssh_private_key: ${{ secrets.AUR_SSH_PRIVATE_KEY }}
+          extra_dependencies: "jre-openjdk hicolor-icon-theme"
